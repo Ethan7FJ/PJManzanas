@@ -1,0 +1,1033 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: rgb(54, 20, 110);
+    background: linear-gradient(180deg,rgb(54, 20, 110) 16%, rgb(99, 58, 163) 48%, rgb(153, 115, 214) 85%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+}
+
+#Todo{
+    display: flex;
+}
+
+/*|-------||SECCION DE INICIAR SESION||-------|*/
+#sesion{
+    margin: auto;
+    margin-top: 35px;
+    background: rgb(202, 109, 255);
+    background: linear-gradient(180deg,rgb(202, 109, 255) 16%, rgb(148, 81, 187) 48%,rgb(140, 71, 177) 85%);
+    box-shadow: 2px 2px 10px white;
+    width: 330px;
+    height: 470px; 
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+
+/*|----- CLASE USUARIO -----|*/
+.usu{
+   font-size: 40px;
+   display: flex;
+   font-family: 'PT Sans Narrow', sans-serif;
+   margin: 10px;
+   margin-left: 25%;
+}
+.USU{
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;
+}
+
+/*|----- BOTON ENVIAR -----|*/
+.INI{
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    width: 100px;
+    height: 35px;
+    border-style: none;
+    border-color: black;
+    box-shadow: 4px 4px 10px black;
+    cursor: pointer;
+}
+
+/*|----- BOTON REGISTRO -----|*/
+.REG{
+    margin: 20px;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 4px 4px 10px black;
+}
+.REG a{
+    color: black;
+    font-size: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/*|----- BOTON RESTAURAR CONTRASEÑA -----|*/
+.HOTC{
+margin: 20px;
+color: black;
+}
+
+/*|-------||SECCION DE INICIAR SESION||-------|*/
+
+#Logo{
+    margin: auto;
+    margin-top: 35px;
+    margin-top: 5%;
+}
+
+/*|----- LOGO -----|*/
+.MC{
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    animation: sombra 2s infinite;
+}
+
+@keyframes sombra {
+    0%{
+        box-shadow: 0px 0px 10px rgb(120, 122, 122);
+    }
+    20%{
+        box-shadow: 2px 2px 10px rgb(140, 122, 122);
+    }
+    40%{
+        box-shadow: 4px 4px 10px rgb(160, 122, 122);
+    }
+    60%{
+        box-shadow: 2px 2px 10px rgb(140, 122, 122);
+    }
+    80%{
+        box-shadow: 0px 0px 10px rgb(120, 122, 122);
+    }
+}
+
+/*-------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------*/
+
+/*|------------||METODO DE REGISTRO||----------|*/
+#resgis{
+    margin: auto;
+    background: rgb(250, 189, 246);
+    background: linear-gradient(180deg,rgb(250, 189, 246) 16%,rgb(235, 158, 229) 48%,rgb(223, 128, 216) 85%);
+    box-shadow: 4px 4px 10px black;
+    width: 700px;
+    height: 1220px; 
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*|----- IMAGEN MANZANAS -----|*/
+#resgis .LG{
+    position: absolute;
+    margin: auto;
+    margin-left: -13%;
+    margin-top: 13%;
+    opacity: 0.2;
+}
+/*|----- TITULO REGISTRO -----|*/
+
+.tit{
+    font-size: 30px;
+    margin: 10px;
+    padding: 17px;
+}
+
+/*|----- TIPO DE DOCUMENTO -----|*/
+.TC{
+   font-size: 30px;
+   display: flex;
+   font-family: 'PT Sans Narrow', sans-serif;
+   margin: 10px;
+   margin-left: 35%;
+}
+.tc{
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;
+}
+
+/*|----- DOCUMENTO -----|*/
+.DI{
+    font-size: 27px;
+   display: flex;
+   font-family: 'PT Sans Narrow', sans-serif;
+   margin: 10px;
+   margin-left: 33%;
+}
+.di{
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;
+}
+
+/*|----- NOMBRES DEL USUARIO -----|*/
+.NM{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 10px;
+    margin-left: 44%;
+}
+.nm{
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;
+}
+
+/*|----- APELLIDOS DEL USUARIO -----|*/
+.AP{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 10px;
+    margin-left: 44%;
+}
+.ap{
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;
+}
+
+/*|----- TELEFONO DEL USUARIO -----|*/
+.TL{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 10px;
+    margin-left: 44%;
+}
+.tl{
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;
+}
+
+/*|----- CORREO DEL USUARIO -----|*/
+.CR{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 10px;
+    margin-left: 44%;
+}
+.cr{
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;
+}
+
+/*|----- CIUDAD DEL USUARIO -----|*/
+.CI{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 10px;
+    margin-left: 44%;
+}
+.ci{
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;
+}
+
+/*|----- DIRECCION DEL USUARIO -----|*/
+.DR{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 10px;
+    margin-left: 48%;
+}
+.dr{
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove; 
+}
+
+/*|----- CONTRASEÑA DEL USUARIO -----|*/
+.Code{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 10px;
+    margin-left: 45%;
+}
+.cODE{
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove; 
+}
+
+/*|----- BOTON DE REGISTRO -----|*/
+.RELG{
+    margin: 20px;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 4px 4px 10px black;
+    color: black;
+    font-size: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    cursor: pointer;
+}
+
+/*-------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------*/
+
+/*|------------||REGISRO DE MANZANS Y MUNICIPIOS||----------|*/
+#MAMU{
+    display: flex;
+    padding: 20px;
+    margin: 15px;
+}
+
+#Manzana{
+    margin: auto;
+    background: rgb(250, 189, 246);
+    background: linear-gradient(180deg,rgb(250, 189, 246) 16%,rgb(235, 158, 229) 48%,rgb(223, 128, 216) 85%);
+    box-shadow: 4px 4px 10px black;
+    width: 500px;
+    height: 735px; 
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 10px;
+}
+
+/*|----- TITULO MANZANAS -----|*/
+.pit{
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*|----- REGISTRO MUNICIPIO -----|*/
+.MU{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 10px;
+    margin-left: 40%;
+}
+.mu{
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;
+}
+
+/*|-----TITULO REGISTRO MANZANAS -----|*/
+.MZ{
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*|----- CODIGO DE LA MANZANA -----|*/
+.CD{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 10px;
+    margin-left: 29%;
+}
+.cd{
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;
+}
+
+/*|----- NOMBRE DE LA MANZANA -----|*/
+.MN{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 10px;
+    margin-left: 33%;
+}
+.mn{
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;
+}
+
+/*|----- LOCALIDAD DE LA MANZANA -----|*/
+.LC{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 10px;
+    margin-left: 41%;
+}
+.lc{
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;
+}
+
+/*|----- DIRECCION DE LA MANZANA -----|*/
+.DR{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 10px;
+    margin-left: 41%;
+}
+.dr{
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;
+}
+
+/*|----- BOTON DE COMPLETADO -----|*/
+.COMP{
+    margin: 20px;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 4px 4px 10px black;
+    color: black;
+    font-size: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    cursor: pointer;
+}
+
+/*-------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------*/
+
+/*|------------||MAPA DE LAS MANZANAS DEL CUIDADO||----------|*/
+#Mapa{
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    margin-left: 5%;
+    margin-top: 5%;
+    box-shadow: 2px 2px 10px white;
+}
+
+/*-------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------*/
+
+/*|------------||MUJERES PROPONEN QUE MANZANA CUIDAR||----------|*/
+#Propon{
+    width: 990px;
+    height: 650px;
+    margin: auto;
+    background: rgb(250, 189, 246);
+    background: linear-gradient(180deg,rgb(250, 189, 246) 16%,rgb(235, 158, 229) 48%,rgb(223, 128, 216) 85%);
+    box-shadow: 4px 4px 10px black;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 10px;
+    display: flex;
+}
+
+/*|------------||SECCIONES||----------|*/
+#Muje{
+    padding: 10px;
+}
+
+/*|------------||TITULO DE MUJERES QUE PROPONEN||----------|*/
+.PMC{
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*|------------||MANZANA A CUIDAR||----------|*/
+.HAC{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 10px;
+    margin-left: 20%;
+}
+.mac{
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;
+}
+
+/*|------------||SERVICOS||----------|*/
+.SR{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 10px;
+    margin-left: 38%;
+}
+.sr{
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;
+}
+
+/*|------------||DIA QUE SE VA CUIDAR||----------|*/
+.DC{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 10px;
+    margin-left: 20%;
+}
+.dc{
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;
+}
+
+/*|------------||HORA QUE SE VA CUIDAR||----------|*/
+.HC{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 10px;
+    margin-left: 20%;
+}
+.hc{
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;
+}
+
+/*|----- BOTON DE AGENDAR SOLICITUD -----|*/
+.AGEN{
+    margin: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 4px 4px 10px black;
+    color: black;
+    font-size: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    cursor: pointer;
+}
+
+/*|----- ILUSTRACION DE LA MUJER -----|*/
+.ILU{
+    border-radius: 50px;
+}
+
+/*-------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------*/
+
+/*|------------||REGISTRO DE CATEGORIA, TIPOS Y SERVICIOS||----------|*/
+#TCS {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+/*|----- SECCIONES DE LOS SERVICIOS -----|*/
+#TS{
+    margin: auto;
+    background: rgb(250, 189, 246);
+    background: linear-gradient(180deg,rgb(250, 189, 246) 16%,rgb(235, 158, 229) 48%,rgb(223, 128, 216) 85%);
+    box-shadow: 4px 4px 10px black;
+    width: 500px;
+    height: 680px; 
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 10px;
+}
+
+/*|----- BOTON DE SUBIR -----|*/
+.Sub3{
+    margin: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 4px 4px 10px black;
+    color: black;
+    font-size: 23px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    cursor: pointer;
+}
+
+/*-------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------*/
+
+/*|----- |||| TITULO DE SERVICIO |||| -----|*/
+.SRV{
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*|----- CODIGO DE SERVICIO -----|*/
+.TDS{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 5px;
+    margin-left: 36%;
+}
+.tds{
+    width: 250px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;  
+}
+
+/*|----- CODIGO DE SERVICIO -----|*/
+.CTS{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 5px;
+    margin-left: 31%;
+}
+.cts{
+    width: 250px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;  
+}
+
+/*|----- CODIGO DE SERVICIO -----|*/
+.CSS{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 5px;
+    margin-left: 43.5%;
+}
+.css{
+    width: 250px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;   
+}
+
+/*|----- NOMBRE DE SERVICIO -----|*/
+.NSS{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 5px;
+    margin-left: 42%;
+}
+.nss{
+    width: 250px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;
+}
+
+/*|----- DESCIPCION DE SERVICIO -----|*/
+.DSS{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 5px;
+    margin-left: 27%;
+}
+
+/*-------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------*/
+#EST{
+    margin: auto;
+    background: rgb(250, 189, 246);
+    background: linear-gradient(180deg,rgb(250, 189, 246) 16%,rgb(235, 158, 229) 48%,rgb(223, 128, 216) 85%);
+    box-shadow: 4px 4px 10px black;
+    width: 470px;
+    height: 520px; 
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 10px;
+}
+
+
+/*|----- |||| TITULO DE SERVICIO |||| -----|*/
+.Est{
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*|----- CODIGO DEL ESTABLECIMIENTO -----|*/
+.ESCD{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 5px;
+    margin-left: 43.5%;
+}
+.escd{
+    width: 250px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;   
+}
+
+/*|----- NOMBRE DEL ESTABLECIMIENTO -----|*/
+.NMES{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 5px;
+    margin-left: 23%;
+}
+.nmes{
+    width: 250px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;
+}
+
+/*|----- RESPONSABLE DEL ESTABLECIMIENTO -----|*/
+.ESR{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 5px;
+    margin-left: 37%;
+}
+.esr{
+    width: 250px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;
+}
+
+/*|----- DIRECCION DEL ESTABLECIMIENTO -----|*/
+.ESDR{
+    font-size: 27px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 5px;
+    margin-left: 40%;
+}
+.esdr{
+    width: 250px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;
+}
+
+/*|----- BOTON DE REGISTRO DEL ESTABLECIMIENTO -----|*/
+.ESRE{
+    margin: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 4px 4px 10px black;
+    color: black;
+    font-size: 23px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    cursor: pointer;
+}
+
+/*-------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------*/
+
+/*|----- SECCION DEL MAPA DEL INICIO -----|*/
+#VMP{
+    margin: auto;
+    margin-top: 25px;
+    width: 750px;
+    height: 400px; 
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    background-image: url(../../SRC/Mapa1.jpg);
+    box-shadow: 5px 5px 10px black;
+}
+
+/*|----- BOTON PARA IR AL MAPA -----|*/
+.IR1{
+    margin: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 4px 4px 10px black;
+    color: black;
+    font-size: 25px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    cursor: pointer;
+    margin-top: -1%;
+    margin-left: -55%;
+}
+
+/*|----- TITULO PARA IR AL MAPA -----|*/
+.TMM{
+    margin: 20px;
+    margin-top: 23%;
+    margin-left: -55%;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/*-------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------*/
+#POSTUS{
+display: flex;
+}
+/*|----- SECCION DEL POSTULACIONES DEL INICIO -----|*/
+#PMP{
+    margin: auto;
+    margin-top: 40px;
+    bottom: 10%;
+    width: 750px;
+    height: 400px; 
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    background-image: url(../../SRC/SolicitudMJ1.jpg);
+    box-shadow: 5px 5px 10px black;
+}
+
+/*|----- BOTON PARA IR A POSTULACIONES -----|*/
+.IR2{
+    margin: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 4px 4px 10px black;
+    color: black;
+    font-size: 25px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    cursor: pointer;
+    margin-top: -1%;
+    margin-left: -55%;
+}
+
+/*|----- TITULO PARA IR A POSTULACIONES -----|*/
+.TPM{
+    margin: 20px;
+    margin-top: 23%;
+    margin-left: -55%;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/*-------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------*/
+
+/*|----- SECCION DE OTRAS OPCIONES -----|*/
+#PAD{
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 26px;
+    width: 750px;
+    height: 400px; 
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    background-image: url(../../SRC/Optiones1.jpg);
+    box-shadow: 5px 5px 10px black;
+}
+
+/*|----- BOTON PARA IR A OTRAS OPCIONES -----|*/
+.IR3{
+    margin: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 4px 4px 10px black;
+    color: black;
+    font-size: 25px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    cursor: pointer;
+    margin-top: -1%;
+    margin-left: -55%;
+}
+
+/*|----- TITULO PARA IR A OTRAS OPCIONES -----|*/
+.TPO{
+    margin: 20px;
+    margin-top: 23%;
+    margin-left: -55%;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/*|----- HEADER DEL INICIO -----|*/
+#options{
+    width: 100%;
+    height: 100px;
+    background: rgb(214, 207, 207);
+}
+.opc{
+    display: flex;
+}
+
+.M li{
+    margin-left: 600px;
+    margin-top: 15px;
+    padding: 15px 30px 15px 30px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-decoration: none;
+    list-style: none;
+    background: purple;
+    border-radius: 20px;
+}
+
+.P li{
+    margin-left: 30px;
+    margin-top: 15px;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    background: purple;
+    border-radius: 20px;
+}
+
+.O li{
+    margin-top: 15px;
+    margin-left: 30px;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+    list-style: none;  
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    background: purple;
+    border-radius: 20px;
+}
